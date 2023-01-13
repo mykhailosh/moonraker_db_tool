@@ -126,6 +126,7 @@ sub write_database_data {
 	my $dbi = $txn->open( MOONRAKER_DB );
         $txn->put( $dbi, $table, encode_json $data );
         $txn->commit;
+	print "Data has been written to moonraker database\n";
 	return;
 }
 
