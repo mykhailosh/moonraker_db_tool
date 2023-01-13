@@ -41,7 +41,7 @@ moonraker_dbtool.pl --database /home/klipper/printer_data/database --action expo
 ```
 
 ```
-Data written to /tmp/moonraker_database_export_1673651072.json
+# Data written to /tmp/moonraker_database_export_1673651072.json
 ```
 
 
@@ -50,7 +50,7 @@ Data written to /tmp/moonraker_database_export_1673651072.json
 moonraker_dbtool.pl --database /home/klipper/printer_data/database --action import --data /tmp/moonraker_database_export_1673651072.json
 ```
 ```
-Data has been written to moonraker database
+# Data has been written to moonraker database
 ```
 
 ### Merge
@@ -58,5 +58,5 @@ Data has been written to moonraker database
 moonraker_dbtool.pl --database /home/klipper/printer_data/database --action merge --data /tmp/moonraker_database_export_1673651072.json
 ```
 ```
-Data has been written to moonraker database
+# Data has been written to moonraker database
 ```
